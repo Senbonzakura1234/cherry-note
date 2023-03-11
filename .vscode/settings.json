@@ -1,0 +1,126 @@
+{
+	"cSpell.diagnosticLevel": "Hint",
+	"cSpell.ignorePaths": ["**/node_modules/**", "**/.vscode/extensions.json", ".env", "**/dist/**", "**/prisma/**"],
+	"cSpell.words": [
+		"clsx",
+		"daisyui",
+		"escha",
+		"gsap",
+		"headlessui",
+		"heroicons",
+		"meruru",
+		"pnpx",
+		"ryza",
+		"Senbonzakura",
+		"shallie",
+		"ssid",
+		"superjson",
+		"tabler-icons-react",
+		"tailwindcss",
+		"tanstack",
+		"trpc",
+		"tsbuildinfo",
+		"tsconfigs",
+		"vsicons"
+	],
+	"css.lint.unknownAtRules": "ignore",
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true
+	},
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.rulers": [120],
+	"eslint.alwaysShowStatus": true,
+	"eslint.codeActionsOnSave.mode": "all",
+	"eslint.format.enable": true,
+	"eslint.lintTask.enable": true,
+	"eslint.packageManager": "yarn",
+	"files.associations": {
+		"*.eslintrc": "json",
+		"*.json": "json",
+		"*.prettierrc": "json",
+		"*.webmanifest": "json"
+	},
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"vsicons.associations.files": [
+		{
+			"extensions": ["trpc.ts", "[trpc].ts", "trpc", "[trpc]"],
+			"filename": true,
+			"format": "svg",
+			"icon": "trpc",
+			"overrides": "ts"
+		},
+		{
+			"extensions": ["seed.ts", "seed", "prisma.ts", "prisma"],
+			"filename": true,
+			"format": "svg",
+			"icon": "prisma",
+			"overrides": "ts"
+		},
+		{
+			"extensions": ["settings.json", "setting.json", "extensions.json", "extension.json"],
+			"filename": true,
+			"format": "svg",
+			"icon": "vscode"
+		},
+		{
+			"extensions": ["manifests.json", "manifest.json"],
+			"filename": true,
+			"format": "svg",
+			"icon": "manifest"
+		},
+		{
+			"extensions": ["package.json"],
+			"filename": true,
+			"format": "svg",
+			"icon": "node"
+		},
+		{
+			"extensions": ["tsbuildinfo"],
+			"format": "svg",
+			"icon": "tsconfig_official",
+			"overrides": "tsbuildinfo"
+		},
+		{
+			"extensions": ["env.mjs"],
+			"filename": true,
+			"format": "svg",
+			"icon": "config",
+			"overrides": "mjs"
+		}
+	],
+	"vsicons.associations.folders": [
+		{
+			"extensions": ["splash_screens"],
+			"format": "svg",
+			"icon": "images",
+			"overrides": "splash_screens"
+		},
+		{
+			"extensions": ["env"],
+			"format": "svg",
+			"icon": "config",
+			"overrides": "env"
+		},
+		{
+			"extensions": ["backups", "backup"],
+			"format": "svg",
+			"icon": "temp",
+			"overrides": "backup"
+		},
+		{
+			"extensions": ["constants", "constant"],
+			"format": "svg",
+			"icon": "binary",
+			"overrides": "constant"
+		},
+		{
+			"extensions": ["animation", "animations"],
+			"format": "svg",
+			"icon": "theme",
+			"overrides": "constant"
+		}
+	],
+	"vsicons.presets.tsOfficial": true
+}
